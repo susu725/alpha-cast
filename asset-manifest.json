@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/alpha-cast/static/css/main.79551fba.css",
+    "main.js": "/alpha-cast/static/js/main.a44c09e3.js",
+    "static/js/787.288d200c.chunk.js": "/alpha-cast/static/js/787.288d200c.chunk.js",
+    "static/media/carousel3.png": "/alpha-cast/static/media/carousel3.7748f5dfcf7f16a647f3.png",
+    "static/media/carousel1.png": "/alpha-cast/static/media/carousel1.7ae5b06247111f4f5aa6.png",
+    "static/media/carousel2.png": "/alpha-cast/static/media/carousel2.fbfedf5526afd76e9276.png",
+    "index.html": "/alpha-cast/index.html",
+    "main.79551fba.css.map": "/alpha-cast/static/css/main.79551fba.css.map",
+    "main.a44c09e3.js.map": "/alpha-cast/static/js/main.a44c09e3.js.map",
+    "787.288d200c.chunk.js.map": "/alpha-cast/static/js/787.288d200c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79551fba.css",
+    "static/js/main.a44c09e3.js"
+  ]
+}
