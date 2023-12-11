@@ -1,0 +1,34 @@
+.empty {
+    width: 806px; //1132 - 312
+    height: 182px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+    img {
+        width: 56px;
+        height: 56px;
+        margin-bottom: 14px;
+    }
+
+    p {
+        color: #718096;
+        margin-bottom: 32px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26.06px;
+    }
+
+    button {
+        width: 191px;
+        height: 44px;
+        padding: 21px, 328px, 21px, 328px;
+        color: #FFFFFF;
+        background-color: #FF7F50;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}

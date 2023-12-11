@@ -1,0 +1,176 @@
+.new-modal {
+    width: 868px;
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 90px;
+    left: 326px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    z-index: 4;
+
+    .search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title-section {
+            width: 868px;
+            height: 52px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px;
+            border-bottom: 1px solid #EBEBEB;
+
+            .title {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 26.06px;
+            }
+
+            .cross-btn {
+                width: 14px;
+                height: 14px;
+                color: #93989A;
+                cursor: pointer;
+            }
+        }
+
+        .input-section {
+            position: relative;
+
+            .magnifier {
+                width: 17.49px;
+                height: 17.49px;
+                position: absolute;
+                top: 45%;
+                left: 18px;
+                color: #ACADB9;
+            }
+
+            input {
+                width: 836px;
+                height: 54px;
+                margin-top: 12px;
+                padding-left: 48px;
+                background-color: #F5F5F5;
+                border: none;
+                border-radius: 18px;
+            }
+        }
+
+    }
+
+    .podcast-list {
+        width: 868px;
+        height: 100%;
+        margin-top: 14px;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+            width: 0;
+        }
+
+        .have-results {
+            margin-left: 16.5px;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26.06px;
+        }
+
+        .podcasts {
+            width: inherit; //860
+            display: flex;
+            flex-wrap: wrap;
+
+            .podcast {
+                width: 182px;
+                height: 230px;
+                margin: 10px 16.5px;
+                cursor: pointer;
+
+                .cover {
+                    width: 150px;
+                    height: 144px;
+
+                    img {
+                        width: 150px;
+                        height: 144px;
+                    }
+                }
+
+                .summary {
+                    width: 150px;
+                    height: 45px;
+                }
+
+                .more-btn {
+                    display: none;
+                }
+            }
+        }
+
+        .episodes {
+            width: inherit; //860
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .no-result {
+            width: inherit;
+            display: inline-block;
+            padding-left: 16.5px;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26.06px;
+        }
+    }
+
+    .btn-section {
+        width: 868px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 16px 24px;
+        background-color: #F6F7F8;
+        border-radius: 0px 0px 16px 16px;
+        box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.12);
+
+        .cancel-btn {
+            width: 191px;
+            height: 44px;
+            padding: 21px, 328px, 21px, 328px;
+            color: #111111;
+            background-color: #F6F7F8;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+
+            &:hover {
+                color: #FF7F50;
+                border: 1px solid #FF7F50;
+            }
+        }
+
+        .new-btn {
+            width: 191px;
+            height: 44px;
+            padding: 21px, 328px, 21px, 328px;
+            color: #FFFFFF;
+            background-color: #FF7F50;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+
+            &:hover {
+                color: #111111;
+                border: 1px solid #111111;
+            }
+        }
+    }
+}

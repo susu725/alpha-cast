@@ -1,0 +1,81 @@
+.input-modal {
+    width: 414px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 322px;
+    left: 563px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    z-index: 4;
+
+    .title-section {
+        width: 414px;
+        height: 52px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px;
+        border-bottom: 1px solid #EBEBEB;
+
+        .title {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 26.06px;
+        }
+
+        .cross-btn {
+            width: 14px;
+            height: 14px;
+            color: #93989A;
+            cursor: pointer;
+        }
+    }
+
+    input {
+        width: 382px;
+        height: 54px;
+        margin-top: 12px;
+        background-color: #F7F7F7;
+        border: none;
+        border-radius: 8px;
+    }
+
+    .btn-section {
+        position: absolute;
+        bottom: 30px;
+
+        .cancel-btn {
+            width: 191px;
+            height: 44px;
+            padding: 21px, 328px, 21px, 328px;
+            color: #111111;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+
+            &:hover {
+                color: #FF7F50;
+                border: 1px solid #FF7F50;
+            }
+        }
+
+        .save-btn {
+            width: 191px;
+            height: 44px;
+            padding: 21px, 328px, 21px, 328px;
+            color: #FFFFFF;
+            background-color: #FF7F50;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+
+            &:hover {
+                color: #111111;
+                border: 1px solid #111111;
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.episode {
+    width: 831px;
+    height: 151px;
+    display: flex;
+    align-items: center;
+    margin: 8px 0px;
+    padding: 16px;
+    border: 1px solid #EDF2F7;
+    border-radius: 16px;
+
+    img {
+        width: 96px;
+        height: 96px;
+    }
+
+    .episode-summary {
+        width: 687px;
+        height: 119px;
+        margin-left: 12px;
+
+        .title-section {
+            height: 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .name {
+                width: 657px;
+                color: #111111;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 23.17px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+
+            .delete-btn {
+                width: 11.67px;
+                height: 15px;
+                // color: #FF7F50;
+                // color: #888;
+                cursor: pointer;
+            }
+        }
+
+        .description {
+            width: 657px;
+            height: 42px;
+            margin-bottom: 3px;
+            text-align: justify;
+            color: #718096;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20.27px;
+            overflow: hidden; // 超出部份直接隱藏
+        }
+
+        .timestamp {
+            width: 189px;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            div {
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #FF7F50;
+                border-radius: 1000px;
+                cursor: pointer;
+
+                .play {
+                    width: 22px;
+                    height: 22px;
+                    color: #FFFFFF;
+                }
+            }
+
+            p {
+                color: #93989A;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20.27px;
+            }
+        }
+    }
+}
+
+.click {
+    border: 2px solid #FF7F50;
+}

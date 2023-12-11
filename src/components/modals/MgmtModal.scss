@@ -1,0 +1,30 @@
+.mgmt-modal {
+    width: 180px;
+    height: 156px;
+    position: relative;
+    top: 76.5px;
+    left: 15px;
+    color: #111111;
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    z-index: 2;
+
+    li {
+        height: calc(156px/3);
+        padding-left: 14px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 50px;
+        border-bottom: 1px solid #EBEBEB;
+        cursor: pointer;
+
+        &:nth-child(3) {
+            border-bottom: none;
+        }
+    }
+
+    .font-color {
+        color: #FF7F50;
+    }
+}

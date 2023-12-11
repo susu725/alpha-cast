@@ -1,0 +1,71 @@
+$text-color: #718096;
+$add-btn-color: #30A9DE;
+
+.root {
+    --bcg-color: '#111111';
+}
+
+.link-section {
+    width: 196px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    margin: 4px 0px;
+    padding: 16px;
+    border-radius: 12px;
+
+    &:hover {
+        background-color: #111111;
+
+        .link {
+            .name {
+                color: #FFFFFF;
+            }
+        }
+
+        .mgmt-btn {
+            color: #FFFFFF;
+        }
+    }
+
+    .link {
+        width: 158px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        color: $text-color;
+        text-decoration: none;
+
+        .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .name {
+            width: 113px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 21px;
+        }
+    }
+
+    .mgmt-btn {
+        height: 20px;
+        color: $text-color;
+        cursor: pointer;
+        position: absolute;
+        right: 50px;
+    }
+}
+
+.mask-closed {
+    min-width: 1440px;
+    height: 1024px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}

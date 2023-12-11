@@ -1,0 +1,116 @@
+.episode-list {
+    width: 868px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; // 720不足750所以用flex置中
+    align-items: center;
+
+    .podcast-info {
+        width: 868px;
+        height: 144px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 8px;
+        border-bottom: 1px solid #EBEBEB;
+
+        img {
+            width: 127.66px;
+            height: 127.66px;
+        }
+
+        .summary {
+            width: 687px;
+            margin-left: 12px;
+            position: relative;
+
+            div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .name {
+                    width: 600px;
+                    color: #111111;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 24.06px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                }
+
+                .cross-btn {
+                    width: 14px;
+                    height: 14px;
+                    color: #93989A;
+                    cursor: pointer;
+                }
+            }
+
+            .author {
+                width: 400px;
+                color: #93989A;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 17.38px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+
+            .description {
+                width: 685px;
+                height: 50px;
+                color: #718096;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 17.38px;
+                overflow: hidden; // 超出部份直接隱藏
+                word-break: break-all; // 換行
+            }
+
+            .del-btn {
+                width: 40px;
+                height: 25px;
+                position: absolute;
+                right: 0px;
+                bottom: 18px;
+                color: #FF5050;
+                background-color: #FFFFFF;
+                font-size: 12px;
+                font-weight: 400;
+                border: 1px solid #FF5050;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .episodes {
+        width: 868px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        overflow: auto;
+
+        // scrollbar style 
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            height: 100px;
+            background-color: #C1C9D3;
+            border-radius: 50px;
+        }
+    }
+
+    .footer {
+        width: 868px;
+        height: 76px;
+    }
+}
